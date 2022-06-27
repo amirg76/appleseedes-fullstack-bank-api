@@ -37,10 +37,10 @@ app.use("/account", accountRouter);
 //   res.sendFile(path.resolve(__dirname, "client/build/index.html"));
 //   //   // res.sendFile("index.html");
 // });
-app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "/public/index.html"));
-  //   // res.sendFile("index.html");
-});
+// app.get("*", (req, res) => {
+//   res.sendFile(path.resolve(__dirname, "/public/index.html"));
+//   //   // res.sendFile("index.html");
+// });
 
 // app.post("/product/create", create);
 // app.get("/product/all-products", getAll);
